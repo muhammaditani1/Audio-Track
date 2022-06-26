@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import { Fragment, useState } from "react";
+import datas from "./Data.js";
+import Card from "./components/Card.js";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Fragment>
+      {datas.map((data) => (
+        <ul key={data.id} style={{ display: "inline-block" }}>
+          <Card
+            id={data.id}
+            title={data.title}
+            numberOfTracks={data.numberOfTracks}
+            description={data.description}
+            miniDescription={data.miniDescription}
+            image={data.image}
+            alt={data.alt}
+          />
+        </ul>
+      ))}
+    </Fragment>
   );
 }
 

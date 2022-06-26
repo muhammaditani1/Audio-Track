@@ -1,0 +1,30 @@
+.Card {
+  max-width: 30rem;
+  margin: 1rem auto;
+  padding-left: 1rem;
+  background-color: #1f2124;
+  box-shadow: 0 0 20px #d8cc26;
+  border-radius: 12px;
+  text-align: center;
+  list-style: none;
+}
+
+.Card h2 {
+  font-size: 1rem;
+  color: #d8cc26;
+}
+
+.Card h3 {
+  color: #eccf77;
+  margin: 0;
+  font-size: 1rem;
+}
+.Card li {
+  margin: 10px 0;
+  font-size: 14px;
+}
+.title {
+  font-size: larger;
+  color: #f7e702;
+  font-weight: bold;
+}

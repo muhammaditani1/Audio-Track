@@ -1,0 +1,35 @@
+.Card {
+  max-width: 20rem;
+  margin-left: 3rem;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #1f2124;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  border-radius: 12px;
+  text-align: center;
+  list-style: none;
+}
+.button1 {
+  background-color: #1f2124;
+  box-shadow: none;
+  border: none;
+}
+.Card h2 {
+  font-size: 1rem;
+  color: #d8cc26;
+}
+
+.Card h3 {
+  color: #eccf77;
+  margin: 0;
+  font-size: 1rem;
+}
+.Card li {
+  margin: 10px 0;
+  font-size: 14px;
+}
+.title {
+  font-size: larger;
+  color: #f7e702;
+  font-weight: bold;
+}
